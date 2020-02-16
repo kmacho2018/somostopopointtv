@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: WebView(
-          initialUrl: "https://google.com",
+          initialUrl: "https://cm.hostlagarto.com:4445/somostopopointtv/somostopopointtv.myStream/playlist.m3u8",
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (WebViewController webViewController) {
             _controller.complete(webViewController);
